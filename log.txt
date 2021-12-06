@@ -1,3 +1,45 @@
+commit 92f96efdb5277d34d31214fa6a3fb3e41db32159
+Merge: af8f210 e92f2d3
+Author: bambino <v.a.barry1@gmail.com>
+Date:   Sun Dec 5 23:08:32 2021 +0100
+
+    solving conflict
+
+commit e92f2d3276c1fb961d8444dd10773385b2e3214e
+Author: bambino <v.a.barry1@gmail.com>
+Date:   Sun Dec 5 22:50:32 2021 +0100
+
+    secondFiole changed on newBranch
+
+ Byt8/file2.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit af8f210415713a6a0e03614c77c259a3146aed33
+Author: bambino <v.a.barry1@gmail.com>
+Date:   Sun Dec 5 22:46:38 2021 +0100
+
+    secondFile changed
+
+ Byt8/file2.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 3d59e26b98a2f9c7c3066b6cf85f65d9737a30fe
+Author: bambino <v.a.barry1@gmail.com>
+Date:   Sun Dec 5 22:40:12 2021 +0100
+
+    secondFile commited
+
+ Byt8/file2.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 979eefdbb9e416b95d62817f31d2a7c9aaa22a33
+Author: bambino <v.a.barry1@gmail.com>
+Date:   Sun Dec 5 22:39:06 2021 +0100
+
+    firstFile commited
+
+ Byt8/file1.txt | 1 +
+ 1 file changed, 1 insertion(+)
 
 commit dc4e920563f374f1e5e5845e1cf1a3625b4bb4d7
 Author: bambino <v.a.barry1@gmail.com>
