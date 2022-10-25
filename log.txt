@@ -14630,3 +14630,45 @@ Date:   Fri Mar 27 10:45:42 2015 +0100
 
  README.md | 2 ++
  1 file changed, 2 insertions(+)
+commit 15a37eb73f6475c8b40feb29ab6be15bf6a69c86
+Merge: 8666dc8 bd189bb
+Author: Azimjon Pulatov <35038240+azimjohn@users.noreply.github.com>
+Date:   Tue Oct 25 14:22:22 2022 +0200
+
+    merge branch and fix conflict
+
+commit bd189bb890d5b15de72395a7b4d06992192a2997
+Author: Azimjon Pulatov <35038240+azimjohn@users.noreply.github.com>
+Date:   Tue Oct 25 14:21:38 2022 +0200
+
+    some changes to first file
+
+ first.txt | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 8666dc853f74127c33aec58c65d541145b5ac218
+Author: Azimjon Pulatov <35038240+azimjohn@users.noreply.github.com>
+Date:   Tue Oct 25 14:20:58 2022 +0200
+
+    changes to first file
+
+ first.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit a256762a1fa86d0a3fd7efcd17cb813ba47e92fd
+Author: Azimjon Pulatov <35038240+azimjohn@users.noreply.github.com>
+Date:   Tue Oct 25 14:19:59 2022 +0200
+
+    second commit
+
+ second.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 330cafe87680d8c46d782ad24953b8a855b29d87
+Author: Azimjon Pulatov <35038240+azimjohn@users.noreply.github.com>
+Date:   Tue Oct 25 14:19:14 2022 +0200
+
+    first commit
+
+ first.txt | 1 +
+ 1 file changed, 1 insertion(+)
