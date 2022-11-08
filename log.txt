@@ -14700,6 +14700,49 @@ Date:   Tue Nov 8 14:06:13 2022 +0200
  s22168.html | 1 +
  1 file changed, 1 insertion(+)
 
+commit 0f706b5c7a5ea6e4d38a4e5e43e4145516c54830
+Author: alina2000 <s22168@pjwstk.edu.pl>
+Date:   Tue Nov 8 15:20:45 2022 +0200
+
+    Second File
+
+ read_2_File.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 85fb4ad23e3bd40690d45e2970979268196adb9d
+Merge: bb852f2 bb498fc
+Author: alina2000 <s22168@pjwstk.edu.pl>
+Date:   Tue Nov 8 15:17:08 2022 +0200
+
+    merged and resolved the conflict in read.txt
+
+commit bb852f2ae0acb1b8dc44bcae47898e88c7b41cf3
+Author: alina2000 <s22168@pjwstk.edu.pl>
+Date:   Tue Nov 8 15:15:16 2022 +0200
+
+    appended content to read.txt
+
+ read.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit bb498fc50b52b36862d515a59cdb6f4ed418be53
+Author: alina2000 <s22168@pjwstk.edu.pl>
+Date:   Tue Nov 8 15:14:37 2022 +0200
+
+    edited the content of read.txt to cause a conflict
+
+ read.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 067822b06c0409be98f788d0285e32fa60cddeb2
+Author: alina2000 <s22168@pjwstk.edu.pl>
+Date:   Tue Nov 8 15:13:47 2022 +0200
+
+    first commit
+
+ read.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
 commit 06d912f60249839848d708eb948358c51a93b829
 Merge: 7bb3bbb f24aacc
 Author: Denis Riumin <dryuminwork@gmail.com>
