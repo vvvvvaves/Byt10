@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>buttons hyperlink</title>
+	<link rel="stylesheet" type="text/css"">
+	<script type="text/javascript" src="script.js"></script>
+	<style>
+	
+		body{
+			background: #00FFA9;
+			background-repeat: no-repeat center top / cover;
+			
+
+		}
+
+		.butt{
+
+			background: #333333;
+			color:#F9FFF2;
+			text-decoration: none;
+			padding: 8px 8px 8px 8px;
+			display: block;
+			width: 60px;
+			height: 60px;
+			font-size: 50px;
+			text-align: center; 
+			transition: .3s ;
+			box-shadow: 10px 5px #000;
+		}
+
+
+
+		.butt:hover{
+
+			transition: background .3s ease;
+			background: #FFF907;
+			color:#000;
+			box-shadow:#FFFFFF; 
+		}
+
+		nav{
+			float: left;
+			position:absolute; 
+			top:50%; 
+			left:50%; 
+			-webkit-transform: translate(-50%,-50%); 
+			-moz-transform: translate(-50%,-50%); 
+			-ms-transform: translate(-50%,-50%); 
+			-o-transform: translate(-50%,-50%); 
+			transform: translate(-50%,-50%); 
+		}
+
+		li{
+			float: left;
+			display: block;
+			margin-right: 18px;
+			margin-top: 28px;
+		}
+
+		footer{
+			font-size: 19px;
+			margin-top:450px;
+			position:fixed; 
+			top:50%; 
+			left:50%; 
+			-webkit-transform: translate(-50%,-50%); 
+			-moz-transform: translate(-50%,-50%); 
+			-ms-transform: translate(-50%,-50%); 
+			-o-transform: translate(-50%,-50%); 
+			transform: translate(-50%,-50%); 
+		}
+	</style>
+</head>
+<body>
+
+	<nav class="dws">
+			<ul>
+				<li>
+					<a href="#" class="butt">1</a>
+				</li>
+				<li>
+					<a href="#" class="butt">2</a>
+				</li>
+				<li>
+					<a href="#" class="butt">3</a>
+				</li>
+				<li>
+					<a href="#" class="butt" onclick="butt1()">4</a>
+				</li>
+			</ul>
+	</nav>
+</body>
+<footer>
+	<p>© S. N. Baglan , 2019</p>
+</footer>
+
+</body>
+</html>
