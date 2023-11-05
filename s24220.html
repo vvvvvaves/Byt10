@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Cat GIFs</title>
+ <style>
+ body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+ }
+
+ .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+ }
+
+ #cat-gif {
+  max-width: 100%;
+  max-height: 100%;
+ }
+
+ .load-button {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+ }
+ </style>
+</head>
+<body>
+ <button class="load-button" onclick="fetchCatGif()">Load another cat GIF</button>
+ <div class="image-container">
+ <img id="cat-gif" />
+ </div>
+
+ <script>
+ function fetchCatGif() {
+  fetch('https://api.thecatapi.com/v1/images/search')
+   .then(response => response.json())
+   .then(data => {
+     let img = document.querySelector('#cat-gif');
+     img.src = data[0].url;
+   });
+ }
+
+ // Fetch a GIF when the page loads
+ fetchCatGif();
+ </script>
+</body>
+</html>
